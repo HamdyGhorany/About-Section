@@ -1,0 +1,85 @@
+
+/* About */
+.about h1 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    transition: 1s;
+    position: relative;
+}
+.about h1:after
+{
+    content: "                  ";
+    width: 3px;
+    height: 50px;
+    color: red;
+    background-color: red;
+    position: absolute;
+    top: 90px;
+    left: -3px;
+   
+    
+}
+.about h6 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/*
+.about .back {
+    background-color: crimson;
+    color: crimson;
+    width: 3px;
+    height: 7px;
+}*/
+
+.about p {
+    padding: 40px;
+    opacity: 0.7;
+    border: 2px gray dashed;
+    transition: 2s;
+}
+
+.about .progs {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.progress {
+    transition: 1s;
+    
+}
+
+.progress:hover {
+    cursor: pointer;
+    transform: scale(1.2,1.2);
+    background-color: lightyellow;
+    
+}
+
+.about h5 {
+    color: brown;
+    font-family: cursive
+}
+
+.about h5:hover {
+    cursor: pointer;
+}
+
+.about hr {
+    width: 50px;
+    transition: 2s;
+}
+
+.about hr:hover {
+    width: 100px;
+}
+
+.about p:hover {
+    opacity: 1;
+    border: 2px #000 solid;
+    text-shadow: 2px 2px #ff0;
+}
+
+.about h1:hover {
+    color: brown;
+}
+
+/* End of About */
